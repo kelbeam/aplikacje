@@ -1,11 +1,11 @@
 
-  <button onclick="dodajAkapit()">nowy kolor</button>
-  <div>tekst</div>
+  <div onclick="dodajStyl()">tekst</div>
+  
 
   <script>
 
-    function dodajAkapit(){
+    function dodajStyl(){
         const kontener = document.querySelector("div");
-        kontener.style.color = 'red';
+        kontener.style.border = '1px solid black';
     }
   </script>
